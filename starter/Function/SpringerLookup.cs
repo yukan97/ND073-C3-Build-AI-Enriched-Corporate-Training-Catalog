@@ -23,7 +23,7 @@ namespace Udacity.springerlookupdemo
           This is where you will configure your Spring API Key
           
         */
-        static readonly string apikey = "<insert API credential here>";
+        static readonly string apikey = "06dc36c6a03a726b7abdc0e543c96593";
         static readonly string springerapiendpoint = "http://api.springernature.com/openaccess/json";
 
         #region Class used to deserialize the request
