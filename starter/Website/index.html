@@ -69,7 +69,7 @@
                     <div class="is-size-4">{{course.title}}</div>
                 </div>
                 <div class="block mt-0">
-                    <div class="is-size-5">{{course.summary}}</div>
+                    <div class="is-size-5">{{course.description}}</div>
                 </div>
                 <div class="columns">
                     <div class="column is-2">
@@ -109,7 +109,7 @@
     */
     var searchApp =  new Vue({
         el: '#search-app',
-        data () {
+        data: function() {
             return {
                 results: null,
                 searchTerm: 'azure',
